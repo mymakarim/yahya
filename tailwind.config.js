@@ -2,6 +2,7 @@ const colors = require("tailwindcss/colors");
 
 module.exports = {
   mode: "jit",
+  plugins: [require("tailwindcss-mso")],
   theme: {
     screens: {
       md: { max: "900px" },
